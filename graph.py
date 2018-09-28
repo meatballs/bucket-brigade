@@ -1,10 +1,8 @@
 from pathlib import Path
 
 import networkx as nx
-from ruamel.yaml import YAML
+import yaml
 
-yaml = YAML(typ="safe")
-yaml.default_flow_style = False
-
-definition = yaml.load(Path("bucket-graph.yaml"))
+with Path("bucket-graph.yaml").open("r") as file:
+    definition = yaml.load(file)
 graph = nx.node_link_graph(definition)
