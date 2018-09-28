@@ -27,14 +27,21 @@ nodes:
   - id: EH
     name: Eric Holscher
     type: person
-  - id: WTD
-    name: WriteTheDocs
+  - id: LCAU18
+    name: LinuxConf AU 2018
     type: event
+    date: 2018-01-22
+    url: https://linux.conf.au/
   - id: PCAS18
     name: PyCascades 2018
     type: event
     date: 2018-01-22
     url: https://2018.pycascades.com/
+  - id: WTDPo18
+    name: Write the Docs Portland 2018
+    type: event
+    date: 2018-05-06
+    url: http://www.writethedocs.org/conf/portland/2018/
   - id: DJC18
     name: DjangoCon Europe 2018
     type: event
@@ -48,11 +55,11 @@ nodes:
   - id: CN
     name: Christopher Neugebauer
     type: person
-  - id: LCAU18
-    name: LinuxConf AU 2018
+  - id: WTDPr18
+    name: Write the Docs Prague 2018
     type: event
-    date: 2018-01-22
-    url: https://linux.conf.au/
+    date: 2018-09-09
+    url: http://www.writethedocs.org/conf/prague/2018/
   - id: PCUK18
     name: PyCon UK 2018
     type: event
@@ -65,9 +72,10 @@ links:
   - {source: ALC, target: ALC.N}
   - {source: PCUK17, target: MH}
   - {source: ALC.N, target: EH}
-  - {source: EH, target: WTD}
+  - {source: EH, target: WTDPo18}
   - {source: EH, target: PCAS18}
   - {source: MH, target: DJC18}
   - {source: MH, target: PCAU18}
   - {source: CN, target: LCAU18}
+  - {source: WTDPo18, target: WTDPr18}
   - {source: PUK17, target: PUK18}
