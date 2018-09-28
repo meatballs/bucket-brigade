@@ -45,7 +45,7 @@ nodes:
     type: event
     date: 2018-05-06
     url: http://www.writethedocs.org/conf/portland/2018/
-  - id: DJC18
+  - id: DJCE18
     name: DjangoCon Europe 2018
     type: event
     date: 2018-05-23
@@ -86,9 +86,9 @@ links:
   - {source: ALC.N, target: EH}
   - {source: EH, target: WTDPo18}
   - {source: EH, target: PCAS18}
-  - {source: MH, target: DJC18}
-  - {source: DJC18, target: RKM}
-  - {source: DJC18, target: KM}
+  - {source: MH, target: DJCE18}
+  - {source: DJCE18, target: RKM}
+  - {source: DJCE18, target: KM}
   - {source: RK, target: PCAU18}
   - {source: KM, target, PCAU18}
   - {source: CN, target: LCAU18}
