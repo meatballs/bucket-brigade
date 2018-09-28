@@ -90,7 +90,7 @@ links:
   - {source: DJCE18, target: RKM}
   - {source: DJCE18, target: KM}
   - {source: RKM, target: PCAU18}
-  - {source: KM, target, PCAU18}
+  - {source: KM, target: PCAU18}
   - {source: CN, target: LCAU18}
   - {source: WTDPo18, target: WTDPr18}
   - {source: PCUK17, target: PCUK18}
