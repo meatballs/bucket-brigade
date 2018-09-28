@@ -1,4 +1,4 @@
-# bucket-graph
+# bucket-brigade
 
 A network representation of how an idea has spread; 
 specifically, the idea of using a lottery based system for selection of lightning talks at conferences.
