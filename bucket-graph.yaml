@@ -6,6 +6,7 @@ nodes:
     name: Owen Campbell
     type: person
     date: 2017-10-13
+    url: https://twitter.com/opcampbell
   - id: PCUK17
     name: PyCon UK 2017
     type: event
@@ -24,9 +25,11 @@ nodes:
     name: Markus Holtermann
     type: person
     date: 2017-10-26
+    url: https://twitter.com/m_holtermann
   - id: EH
     name: Eric Holscher
     type: person
+    url: https://twitter.com/ericholscher
   - id: LCAU18
     name: LinuxConf AU 2018
     type: event
@@ -55,6 +58,7 @@ nodes:
   - id: CN
     name: Christopher Neugebauer
     type: person
+    url: https://twitter.com/chrisjrn
   - id: WTDPr18
     name: Write the Docs Prague 2018
     type: event
