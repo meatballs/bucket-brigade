@@ -5,7 +5,7 @@ nodes:
   - id: OPC
     name: Owen Campbell
     type: person
-    date: 2017-10-01
+    date: 2017-10-13
   - id: PCUK17
     name: PyCon UK 2017
     type: event
