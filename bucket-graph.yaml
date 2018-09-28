@@ -53,6 +53,11 @@ nodes:
     type: event
     date: 2018-01-22
     url: https://linux.conf.au/
+  - id: PCUK18
+    name: PyCon UK 2018
+    type: event
+    date: 2018-09-15
+    url: https://2018.hq.pyconuk.org/schedule/item/0B96/
 
 links:
   - {source: OPC, target: PCUK17}
@@ -65,3 +70,4 @@ links:
   - {source: MH, target: DJC18}
   - {source: MH, target: PCAU18}
   - {source: CN, target: LCAU18}
+  - {source: PUK17, target: PUK18}
