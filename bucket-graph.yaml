@@ -1,0 +1,67 @@
+directed: True
+mulitgraph: False
+graph: {}
+nodes:
+  - id: OPC
+    name: Owen Campbell
+    type: person
+    date: 2017-10-01
+  - id: PCUK17
+    name: PyCon UK 2017
+    type: event
+    date: 2017-10-26
+    url: https://2017.pyconuk.org/sessions/talks/lightning-talks/
+  - id: ALC
+    name: Alex Chan
+    type: person
+    date: 2017-10-26
+  - id: ALC.N
+    name: alexwlchan.net Blog Post
+    type: blog
+    date: 2017-10-28
+    url: https://alexwlchan.net/2017/10/lightning-talks/
+  - id: MH
+    name: Markus Holtermann
+    type: person
+    date: 2017-10-26
+  - id: EH
+    name: Eric Holscher
+    type: person
+  - id: WTD
+    name: WriteTheDocs
+    type: event
+  - id: PCAS18
+    name: PyCascades 2018
+    type: event
+    date: 2018-01-22
+    url: https://2018.pycascades.com/
+  - id: DJC18
+    name: DjangoCon Europe 2018
+    type: event
+    date: 2018-05-23
+    url: https://2018.djangocon.eu/
+  - id: PCAU18
+    name: PyCon AU 2018
+    type: event
+    date: 2018-08-24
+    url: https://2018.pycon-au.org/
+  - id: CN
+    name: Christopher Neugebauer
+    type: person
+  - id: LCAU18
+    name: LinuxConf AU 2018
+    type: event
+    date: 2018-01-22
+    url: https://linux.conf.au/
+
+links:
+  - {source: OPC, target: PCUK17}
+  - {source: PCUK17, target: ALC}
+  - {source: ALC, target: ALC.N}
+  - {source: PCUK17, target: MH}
+  - {source: ALC.N, target: EH}
+  - {source: EH, target: WTD}
+  - {source: EH, target: PCAS18}
+  - {source: MH, target: DJC18}
+  - {source: MH, target: PCAU18}
+  - {source: CN, target: LCAU18}
